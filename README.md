@@ -55,5 +55,44 @@ To assess the effectiveness of our customer segmentation and machine learning mo
 
 Even though K-Means Clustering is the best according to the silhouette score metric with a score of 0.427, because K-Means cannot cluster frequencies that are more than 1 in more than one cluster, RFM Segmentation is used for further analysis which will be related to marketing strategy.
 
+**On Clusters Distributions:**
+
+---
+
+- Using the RFM method, the whole customer are divided to 11 clusters. The cluster density however shows that the customers are mainly classified into 6 main clusters. That is:
+***New Customers, Promising, About to Sleep , Cannot Losse Them, Hibernating Customers and Lost Customers*** with the rest of the clusters only showing numbers of customer below 100.
+
+- After using the density to filter the clusters, the remaining clusters are going to be analyzed using the `monetary` metric. To understand how each of the customers in the clusters contribute to the company cash flows. This filtering conclude that in terms of monetary value there are only four clusters that has a high contributions to the overall transactions value.
+
+- After the filtering process, the analysis are focusing on 4 main clusters: **New Customers, Promising, About to Sleep,** and **Cannot Lose Them** clusters.
+
+**On Clusters Needs Strategy:**
+
+---
+
+
+These informations can be used to understand the right actionable decision towards investing in customer acquisition from each clusters.
+
+- **Promising:** Offer targeted coupons and personalized advertisements to incentivize continued engagement. Utilize the customer preference data to target promotions and keep them actively involved with the platform. 
+
+- **New Customers:** Initiate conversations through dedicated admins to welcome and guide new customers. Highlight the platform's unique value propositions, benefits, and offerings. Provide personalized benefits to demonstrate the immediate value of being a part of the platform.
+
+- **About to Sleep:** Launch targeted advertising campaigns based on individual product interests. Conduct surveys to understand the reasons behind declining interest and tailor promotions accordingly. Use personalized communication to show that the platform values their preferences and is committed to addressing their needs.
+
+- **Cannot Lose Them:** Allocate resources to interact with customers in this cluster. Deploy admins to engage in meaningful conversations, understand their preferences, and address any concerns. Develop exclusive promotions and product offerings to win them back. Invest time and money in making them feel valued and appreciated as recurring customers.
+
+
+
+**Continuous monitoring and adjustment of strategies will be crucial for maintaining a healthy customer base.**
+
+**On Clusters Products Analysis:**
+
+---
+- The analysis reveals a consistent trend with Bed Bath Table as the top-selling product across clusters, suggesting a universal appeal. However, the versatility in the top 10 products of each cluster underscores the importance of understanding diverse product preferences within specific customer segments.
+
+- To capitalize on these findings, the company is advised to analyze preferences within each cluster for targeted marketing. Aligning promotions and discounts with identified preferences can enhance customer relevance, fostering higher engagement and potentially driving increased sales. This customer-centric approach allows the company to cater effectively to diverse preferences while leveraging the popularity of universal trends, such as the appeal of Bed Bath Table.
+
+- For more information on the product, the company can use the function made in [Recommendation System](recommendation_system.ipynb).
+
 # Dashboard - Tableau
 [Tableau Dashboard](https://public.tableau.com/app/profile/abbe.atthabrizi/viz/OlistE-CommerceDashboard_17061788791200/Dashboard1?publish=yes)
