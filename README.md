@@ -45,7 +45,7 @@ To assess the effectiveness of our customer segmentation and machine learning mo
 
 - **Training Time**: This metric measures the time taken to train machine learning models. It is essential to ensure that the models can be trained efficiently, especially when dealing with a large customer dataset.
 
-# Modeling Results
+# Results
 
 | Model | Silhouette Score | Training Time(s) | 
 |-|-|-|
