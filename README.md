@@ -14,7 +14,11 @@ The company main product purpose is to offers a marketplace solution (of e-comme
 Olist, a prominent Brazilian technology company, specializes in e-commerce solutions. Essentially, it functions as a comprehensive department store within major Brazilian online marketplaces. Olist's offerings encompass software, partnerships with key marketplaces, and a reputation-sharing system. The company's primary objective is to provide a marketplace solution for businesses of all sizes and across various sectors, enabling them to enhance their sales, irrespective of their online presence.
 
 # Stakeholders
-The main stakeholders are the sellers and marketing team of the company. Who is in charge of the marketing and customer acquisition.
+The main stakeholders of Olist are the sellers and the marketing team within the company. These two groups play pivotal roles in the success and growth of Olist's e-commerce platform.
+
+- **Sellers**: Sellers are a crucial stakeholder group for Olist. They encompass various businesses of all sizes and across diverse sectors in Brazil. Sellers rely on Olist's e-commerce solution to expand their reach, increase their sales, and effectively tap into the online marketplace. The success of these sellers directly impacts Olist's performance and reputation.
+
+- **Marketing Team**: The marketing team is responsible for customer acquisition and retention, making them indispensable stakeholders. They are entrusted with the task of developing and executing marketing strategies that attract new customers to the platform and encourage existing ones to remain loyal. The effectiveness of these strategies has a direct impact on Olist's ability to grow its user base and increase sales. The marketing team's efforts are closely aligned with the company's overarching goal of optimizing marketing and customer acquisition strategies to foster customer loyalty and sustain growth.
 
 # Problem
 The goal is to ensure productivity by effectively generating and retaining both new and existing users on the platform. Finding the most efficient method to allocate these expenses is crucial for sustained growth and success in the competitive e-commerce market.
@@ -30,7 +34,7 @@ The main goal of the Olist E-Commerce Customer Clustering project is to optimize
 - Behavioral Insights: Gain a deep understanding of each customer segment's patterns and behaviors, allowing for targeted marketing efforts and personalized recommendations.
 
 # Analytical Approaches
-Our analytical approach involves two main steps. In the first step, we use descriptive analytics to segment customers based on their transaction data, utilizing the RFM (Recency, Frequency, Monetary) analysis. This allows us to gain insights into customer characteristics and optimize resource allocation for marketing efforts.
+Our analytical approach involves two main steps. In the first step, we utilize descriptive analytics to analyze Periodically Income Growth, conduct product sales analysis, assess customer behavior, and examine customer retention cohorts based on their transaction data. This allows us to gain insights into various aspects of our customer base, optimize resource allocation for marketing efforts, and make data-driven decisions to enhance our business strategies.
 
 In the second step, we employ clustering modeling techniques to group customers with similar behavior patterns. We select relevant features and apply clustering with algorithms like K-Means and Agglomerative clustering or without algorithms like RFM Segmentation. We then evaluate the quality of these clusters using the Silhouette Score and extract actionable insights for personalized marketing strategies. This approach combines descriptive analysis with modeling to enhance customer segmentation and drive data-driven marketing decisions.
 
