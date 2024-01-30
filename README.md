@@ -56,3 +56,4 @@ To assess the effectiveness of our customer segmentation and machine learning mo
 Even though K-Means Clustering is the best according to the silhouette score metric with a score of 0.427, because K-Means cannot cluster frequencies that are more than 1 in more than one cluster, RFM Segmentation is used for further analysis which will be related to marketing strategy.
 
 # Dashboard - Tableau
+[Tableau Dashboard](https://public.tableau.com/app/profile/abbe.atthabrizi/viz/OlistE-CommerceDashboard_17061788791200/Dashboard1?publish=yes)
